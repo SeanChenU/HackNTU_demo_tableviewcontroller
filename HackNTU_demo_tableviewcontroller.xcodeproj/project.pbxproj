@@ -14,6 +14,8 @@
 		E9045CBB1DDC0A7A009B99F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9045CB91DDC0A7A009B99F2 /* LaunchScreen.storyboard */; };
 		E9045CC61DDC0A7A009B99F2 /* HackNTU_demo_tableviewcontrollerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9045CC51DDC0A7A009B99F2 /* HackNTU_demo_tableviewcontrollerTests.swift */; };
 		E9045CD11DDC0A7A009B99F2 /* HackNTU_demo_tableviewcontrollerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9045CD01DDC0A7A009B99F2 /* HackNTU_demo_tableviewcontrollerUITests.swift */; };
+		E9045CE21DDC0BB2009B99F2 /* FeedTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9045CE01DDC0BB2009B99F2 /* FeedTableViewCell.swift */; };
+		E9045CE61DDC0C5D009B99F2 /* DemoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9045CE51DDC0C5D009B99F2 /* DemoTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		E9045CCC1DDC0A7A009B99F2 /* HackNTU_demo_tableviewcontrollerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HackNTU_demo_tableviewcontrollerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9045CD01DDC0A7A009B99F2 /* HackNTU_demo_tableviewcontrollerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HackNTU_demo_tableviewcontrollerUITests.swift; sourceTree = "<group>"; };
 		E9045CD21DDC0A7A009B99F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9045CE01DDC0BB2009B99F2 /* FeedTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedTableViewCell.swift; sourceTree = "<group>"; };
+		E9045CE51DDC0C5D009B99F2 /* DemoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DemoTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				E9045CB01DDC0A7A009B99F2 /* AppDelegate.swift */,
 				E9045CB21DDC0A7A009B99F2 /* ViewController.swift */,
+				E9045CE51DDC0C5D009B99F2 /* DemoTableViewController.swift */,
+				E9045CE41DDC0BBA009B99F2 /* Feed Cell */,
 				E9045CB41DDC0A7A009B99F2 /* Main.storyboard */,
 				E9045CB71DDC0A7A009B99F2 /* Assets.xcassets */,
 				E9045CB91DDC0A7A009B99F2 /* LaunchScreen.storyboard */,
@@ -123,6 +129,14 @@
 				E9045CD21DDC0A7A009B99F2 /* Info.plist */,
 			);
 			path = HackNTU_demo_tableviewcontrollerUITests;
+			sourceTree = "<group>";
+		};
+		E9045CE41DDC0BBA009B99F2 /* Feed Cell */ = {
+			isa = PBXGroup;
+			children = (
+				E9045CE01DDC0BB2009B99F2 /* FeedTableViewCell.swift */,
+			);
+			name = "Feed Cell";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,7 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E9045CE61DDC0C5D009B99F2 /* DemoTableViewController.swift in Sources */,
 				E9045CB31DDC0A7A009B99F2 /* ViewController.swift in Sources */,
+				E9045CE21DDC0BB2009B99F2 /* FeedTableViewCell.swift in Sources */,
 				E9045CB11DDC0A7A009B99F2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
